@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="5804936d8c994748850e7fe540928352" Name="Diagram1">
+        <EntityTypeShape EntityType="ParkingUNModel.Parking" Width="1.5" PointX="6.75" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ParkingUNModel.Parking_log" Width="1.5" PointX="6.75" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ParkingUNModel.Parking_User" Width="1.5" PointX="3.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ParkingUNModel.User" Width="1.5" PointX="3.75" PointY="2.5" IsExpanded="true" />
+        <AssociationConnector Association="ParkingUNModel.FK__Parking_l__idPar__2D27B809" ManuallyRouted="false" />
+        <AssociationConnector Association="ParkingUNModel.FK__Parking_U__idPar__29572725" ManuallyRouted="false" />
+        <AssociationConnector Association="ParkingUNModel.FK__Parking_l__idUse__2C3393D0" ManuallyRouted="false" />
+        <AssociationConnector Association="ParkingUNModel.FK__Parking_U__idUse__286302EC" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

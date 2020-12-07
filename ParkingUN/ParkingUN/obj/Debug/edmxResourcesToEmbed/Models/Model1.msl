@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ParkingUNModelStoreContainer" CdmEntityContainer="ParkingUNEntities1">
+    <EntitySetMapping Name="Parkings">
+      <EntityTypeMapping TypeName="ParkingUNModel.Parking">
+        <MappingFragment StoreEntitySet="Parking">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="nameP" ColumnName="nameP" />
+          <ScalarProperty Name="latitude" ColumnName="latitude" />
+          <ScalarProperty Name="longitude" ColumnName="longitude" />
+          <ScalarProperty Name="capacity" ColumnName="capacity" />
+          <ScalarProperty Name="actual" ColumnName="actual" />
+          <ScalarProperty Name="state" ColumnName="state" />
+          <ScalarProperty Name="nearbyPlaces" ColumnName="nearbyPlaces" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Parking_log">
+      <EntityTypeMapping TypeName="ParkingUNModel.Parking_log">
+        <MappingFragment StoreEntitySet="Parking_log">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="idUser" ColumnName="idUser" />
+          <ScalarProperty Name="idParking" ColumnName="idParking" />
+          <ScalarProperty Name="dateStart" ColumnName="dateStart" />
+          <ScalarProperty Name="dateEnd" ColumnName="dateEnd" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Parking_User">
+      <EntityTypeMapping TypeName="ParkingUNModel.Parking_User">
+        <MappingFragment StoreEntitySet="Parking_User">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="idUser" ColumnName="idUser" />
+          <ScalarProperty Name="idParking" ColumnName="idParking" />
+          <ScalarProperty Name="dateStart" ColumnName="dateStart" />
+          <ScalarProperty Name="dateEnd" ColumnName="dateEnd" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="ParkingUNModel.User">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="surname" ColumnName="surname" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="identification" ColumnName="identification" />
+          <ScalarProperty Name="passwordF" ColumnName="passwordF" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
